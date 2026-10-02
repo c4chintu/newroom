@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>NewRoom</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-main">
+            <figure class="logo">
+                <a href="#"><img src="images/download (1).svg" alt="Meta Logo" /></a>
+            </figure>
+            <div class="mobile-controls">
+                <button class="mobile-search-btn" aria-label="Search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="hamburger-btn" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <nav class="nav-container" id="navContainer">
+            <div class="left">
+                <ul class="menu">
+                    <li class="menuItem"><a href="#">AI glasses <i class="fa-solid fa-chevron-down nav-arrow"></i></a>
+                        <div class="magamanu">
+                            <div class="mITem">
+                                <ul class="magamanuITem">
+                                    <h3>Explore</h3>
+                                    <li><a href="#">About AI glasses</a></li>
+                                    <li><a href="#">Ray-Ban Meta</a></li>
+                                    <li><a href="#">Oakley Meta Vanguard</a></li>
+                                    <li><a href="#">Oakley Meta HSTN</a></li>
+                                    <li><a href="#">Meta Ray-Ban Display</a></li>
+                                    <li><a href="#">Compare glasses</a></li>
+                                </ul>
+                                <ul class="magamanuITem">
+                                    <h3>shop</h3>
+                                    <li><a href="#">Shop all glasses</a></li>
+                                    <li><a href="#">Certified refurbished</a></li>
+                                    <li><a href="#">Prescription</a></li>
+                                </ul>
+                                <figure class="mImges">
+                                    <img src="images/imgi_1_rayban-wayfarer.png" alt="Ray-Ban Meta" />
+                                    <article>
+                                        <h2>Ray-Ban Meta</h2>
+                                        <p>Shop Wayfarer (Gen 2)</p>
+                                    </article>
+                                </figure>
+                                <figure class="mImges">
+                                    <img src="images/imgi_2_oakleymetavanguard.png" alt="Oakley Meta" />
+                                    <article>
+                                        <h2>Oakley Meta</h2>
+                                        <p>Shop Vanguard</p>
+                                    </article>
+                                </figure>
+                                <figure class="mImges">
+                                    <img src="images/imgi_3_metaraybandisplay.png" alt="Meta Ray-Ban Display" />
+                                    <article>
+                                        <h2>Meta Ray-Ban Display</h2>
+                                        <p>Learn More</p>
+                                    </article>
+                                </figure>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menuItem"><a href="#">Meta Quest <i class="fa-solid fa-chevron-down nav-arrow"></i></a>
+                        <div class="magamanu">
+                            <div class="mITem">
+                                <ul class="magamanuITem">
+                                    <li><a href="#">Meta Quest overview</a></li>
+                                    <li><a href="#">Meta Quest 3s</a></li>
+                                    <li><a href="#">Meta Quest 3</a></li>
+                                    <li><a href="#">Compare devices</a></li>
+                                </ul>
+                                <ul class="magamanuITem">
+                                    <li><a href="#">Accessories</a></li>
+                                    <li><a href="#">Play now. Pay later.</a></li>
+                                    <li><a href="#">Meta Warranty Plus</a></li>
+                                    <li><a href="#">Gift Cards</a></li>
+                                </ul>
+                                <figure class="mImges">
+                                    <img src="images/imgi_4_Meta-Quest-3.png" alt="Meta Quest 3" />
+                                    <article>
+                                        <h2>Shop Meta Quest 3</h2>
+                                    </article>
+                                </figure>
+                                <figure class="mImges">
+                                    <img src="images/imgi_5_meta-quest-3s.png" alt="Meta Quest 3s" />
+                                    <article>
+                                        <h2>Shop Meta Quest 3s</h2>
+                                    </article>
+                                </figure>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menuItem"><a href="#">Explore Meta <i class="fa-solid fa-chevron-down nav-arrow"></i></a>
+                        <div class="magamanu">
+                            <div class="mITem">
+                                <ul class="magamanuITem">
+                                    <h3>Apps</h3>
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Messenger</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">WhatsApp</a></li>
+                                    <li><a href="#">Meta Horizon</a></li>
+                                    <li><a href="#">Threads</a></li>
+                                </ul>
+                                <ul class="magamanuITem">
+                                    <h3>Services</h3>
+                                    <li><a href="#">Meta AI</a></li>
+                                    <li><a href="#">AI Studio</a></li>
+                                    <li><a href="#">Llama</a></li>
+                                    <li><a href="#">Meta Pay</a></li>
+                                    <li><a href="#">Meta Verified</a></li>
+                                </ul>
+                                <ul class="magamanuITem">
+                                    <h3>Community</h3>
+                                    <li><a href="#">About Meta</a></li>
+                                    <li><a href="#">Businesses</a></li>
+                                    <li><a href="#">Creators</a></li>
+                                    <li><a href="#">Developers</a></li>
+                                    <li><a href="#">Educators</a></li>
+                                    <li><a href="#">Researchers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul class="menu">
+                    <li class="menuItem"><a href="#">Support <i class="fa-solid fa-chevron-down nav-arrow"></i></a>
+                        <div class="magamanu">
+                            <div class="mITem2">
+                                <ul class="magamanuITem">
+                                    <h3>Store and Device Help Centers</h3>
+                                    <li><a href="#">Find order</a></li>
+                                    <li><a href="#">Meta Quest and Quest Pro</a></li>
+                                    <li><a href="#">AI Glasses</a></li>
+                                    <li><a href="#">Meta Portal</a></li>
+                                </ul>
+                                <ul class="magamanuITem">
+                                    <h3>Meta Help Center</h3>
+                                    <li><a href="#">Accounts Center</a></li>
+                                    <li><a href="#">Meta Pay</a></li>
+                                    <li><a href="#">Llama</a></li>
+                                    <li><a href="#">Policies</a></li>
+                                    <li><a href="#">Connected Experiences</a></li>
+                                </ul>
+                                <ul class="magamanuITem">
+                                    <h3>App Help Centers</h3>
+                                    <li><a href="#">Meta Horizon</a></li>
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Messenger</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">WhatsApp</a></li>
+                                    <li><a href="#">Workplace</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menuItem"><a href="#">Newsroom <i class="fa-solid fa-chevron-down nav-arrow"></i></a>
+                        <div class="magamanu">
+                            <div class="mITem2">
+                                <ul class="magamanuITem">
+                                    <h3>Apps</h3>
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Messenger</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">WhatsApp</a></li>
+                                    <li><a href="#">Meta Horizon</a></li>
+                                    <li><a href="#">Threads</a></li>
+                                </ul>
+                                <ul class="magamanuITem">
+                                    <h3>Services</h3>
+                                    <li><a href="#">Meta AI</a></li>
+                                    <li><a href="#">AI Studio</a></li>
+                                    <li><a href="#">Llama</a></li>
+                                    <li><a href="#">Meta Pay</a></li>
+                                    <li><a href="#">Meta Verified</a></li>
+                                </ul>
+                                <ul class="magamanuITem">
+                                    <h3>Community</h3>
+                                    <li><a href="#">About Meta</a></li>
+                                    <li><a href="#">Businesses</a></li>
+                                    <li><a href="#">Creators</a></li>
+                                    <li><a href="#">Developers</a></li>
+                                    <li><a href="#">Educators</a></li>
+                                    <li><a href="#">Researchers</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-divider"></li>
+                    <li class="nav-search-btn"><i class="fa-solid fa-magnifying-glass"></i></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="head">
+        <h1>Newsroom</h1>
+        <div class="tech-bar">
+            <ul class="Tech">
+                <li><a href="#">Technologies</a></li>
+                <li><a href="#">Product News</a></li>
+                <li><a href="#">Innovation</a></li>
+                <li><a href="#">Public Policy</a></li>
+                <li><a href="#">Youth Well-Being</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Security</a></li>
+            </ul>
+            <form class="tech-search">
+                <button type="submit" aria-label="Search News"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input type="search" placeholder="Search News" aria-label="Search News">
+            </form>
+        </div>
+    </section>
+    <section class="custom">
+        <div class="customItem">
+            <div class="c1">
+                <figure>
+                    <img src="images/imgi_36_Metas-Custom-Silicon_Thumbnail.gif" />
+                </figure>
+                <article class="c1art">
+                    <h5>Meta</h5>
+                    <h3>Expanding Meta’s Custom Silicon to Power Our AI Workloads</h3>
+                    <p>MTIA custom silicon remains central to our AI infrastructure strategy, with four new generations
+                        of
+                        MTIA chips forthcoming in the next two years.</p>
+                    <h6>March 11, 2026</h6>
+                </article>
+            </div>
+            <div class="c2">
+                <div class="c2ITem">
+                    <figure>
+                        <img
+                            src="images/imgi_39_Fighting-Scammers-and-Protecting-People-with-New-Technology-and-Partnerships_Thumbnail.jpg" />
+                    </figure>
+                    <article>
+                        <h5>Meta</h5>
+                        <h3>Global Law Enforcement Agencies, With Support From Meta, Disrupt Major Criminal Scam
+                            Networks
+                            Based in Southeast Asia</h3>
+                        <p>In collaboration with international law enforcement, Meta investigators disabled over 150,000
+                            accounts associated with scam centers.</p>
+
+                        <h6>March 11, 2026</h6>
+                    </article>
+                </div>
+                <div class="c2ITem">
+                    <figure>
+                        <img src="images/imgi_38_Facebook-Marketplace-Selling-Updates_Thumbnail.jpg" />
+                    </figure>
+                    <article>
+                        <h5>Facebook</h5>
+                        <h3>Facebook Marketplace’s New Meta AI Tools Make Selling Faster and Easier</h3>
+                        <p>In collaboration with international law enforcement, Meta investigators disabled over 150,000
+                            accounts associated with scam centers.</p>
+                        <h6>March 11, 2026</h6>
+                    </article>
+                </div>
+                <div class="c2ITem">
+                    <figure>
+                        <img
+                            src="images/imgi_39_Fighting-Scammers-and-Protecting-People-with-New-Technology-and-Partnerships_Thumbnail.jpg" />
+                    </figure>
+                    <article>
+                        <h5>Meta</h5>
+                        <h3>Fighting Scammers and Protecting People with New Technology and Partnerships</h3>
+                        <p>In collaboration with international law enforcement, Meta investigators disabled over 150,000
+                            accounts associated with scam centers.</p>
+                        <h6>March 11, 2026</h6>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="news">
+        <div class="recnet">
+            <h2><i class="fa-solid fa-angle-down"></i>Recent News</h2>
+        </div>
+        <div class="newmain">
+            <div class="nmItem">
+                <figure>
+                    <img src="images/imgi_41_How-Meta-Is-Preparing-for-the-2026-U.S.-Elections_Thumbnail.jpg" />
+                </figure>
+                <article>
+                    <h2>Meta</h2>
+                    <p>Global Law Enforcement Agencies, With Support From Meta, Disrupt Major Criminal Scam Networks
+                        Based in Southeast Asia</p>
+                    <h6>March 11, 2026</h6>
+                </article>
+            </div>
+            <div class="nmItem">
+                <figure>
+                    <img
+                        src="images/imgi_36_How-Metas-Data-Centers-Support-American-Energy-Jobs-the-Environment-and-Local-Communities_Thumbnail.gif" />
+                </figure>
+                <article>
+                    <h2>Meta</h2>
+                    <p>How Meta’s Data Centers Support American Energy, Jobs, the Environment, and Local Communities</p>
+                    <h6>March 11, 2026</h6>
+                </article>
+            </div>
+            <div class="nmItem">
+                <figure>
+                    <img src="images/imgi_36_Metas-Custom-Silicon_Thumbnail.gif" />
+                </figure>
+                <article>
+                    <h2>Meta</h2>
+                    <p>New Alerts to Let Parents Know if Their Teen May Need Support</p>
+                    <h6>March 11, 2026</h6>
+                </article>
+            </div>
+            <div class="nmItem">
+                <figure>
+                    <img
+                        src="images/imgi_37_How-Metas-Data-Center-Grants-Are-Fueling-Innovation-in-Local-Communities_Thumbnail.gif" />
+                </figure>
+                <article>
+                    <h2>Meta</h2>
+                    <p>Meta Grants Are Fueling Innovation in Local Data Center Communities</p>
+                    <h6>March 11, 2026</h6>
+                </article>
+            </div>
+            <div class="nmItem">
+                <figure>
+                    <img src="images/imgi_38_Facebook-Marketplace-Selling-Updates_Thumbnail.jpg" />
+                </figure>
+                <article>
+                    <h2>Meta</h2>
+                    <p>Global Law Enforcement Agencies, With Support From Meta, Disrupt Major Criminal Scam Networks
+                        Based in Southeast Asia</p>
+                    <h6>March 11, 2026</h6>
+                </article>
+            </div>
+            <div class="nmItem">
+                <figure>
+                    <img src="images/imgi_38_Helios-Partnership_Thumbnail.jpg" />
+                </figure>
+                <article>
+                    <h2>Meta</h2>
+                    <p>Meta and AMD Partner for Longterm AI Infrastructure Agreement</p>
+                    <h6>March 11, 2026</h6>
+                </article>
+            </div>
+            <div class="nmItem">
+                <figure>
+                    <img src="images/imgi_40_Protect-People-and-Brands-from-Fraud_Thumbnail.jpg" />
+                </figure>
+                <article>
+                    <h2>Meta</h2>
+                    <p>Meta’s New Data Center in Lebanon, Indiana Marks a Milestone AI Investment</p>
+                    <h6>March 11, 2026</h6>
+                </article>
+            </div>
+            <div class="nmItem">
+                <figure>
+                    <img src="images/imgi_41_How-Meta-Is-Preparing-for-the-2026-U.S.-Elections_Thumbnail.jpg" />
+                </figure>
+                <article>
+                    <h2>Meta</h2>
+                    <p>Global Law Enforcement Agencies, With Support From Meta, Disrupt Major Criminal Scam Networks
+                        Based in Southeast Asia</p>
+                    <h6>March 11, 2026</h6>
+                </article>
+            </div>
+            <div class="nmItem">
+                <figure>
+                    <img
+                        src="images/imgi_44_New-Data-Center-in-Lebanon-Indiana-Marks-a-Milestone-AI-Investment_Thumbnail.gif" />
+                </figure>
+                <article>
+                    <h2>Meta</h2>
+                    <p>Helping People With Memory Loss Find Their Way With AI Glasses</p>
+                    <h6>March 11, 2026</h6>
+                </article>
+            </div>
+            <div class="nmItem">
+                <figure>
+                    <img src="images/imgi_45_Animate-Your-Facebook-Profile-Picture-With-Meta-AI_Thumbnail.gif" />
+                </figure>
+                <article>
+                    <h2>Meta</h2>
+                    <p>Animate Your Facebook Profile Picture With Meta AI</p>
+                    <h6>March 11, 2026</h6>
+                </article>
+            </div>
+            <div class="nmItem">
+                <figure>
+                    <img src="images/imgi_46_Meta-x-Oscar-Mike-Workshop_Thumbnail.jpg" />
+                </figure>
+                <article>
+                    <h2>Meta</h2>
+                    <p>Meta Announces Up to $6 Billion Agreement With Corning to Support US Manufacturing</p>
+                    <h6>March 11, 2026</h6>
+                </article>
+            </div>
+            <div class="nmItem">
+                <figure>
+                    <img src="images/imgi_47_Meta_Thumbnail.jpg" />
+                </figure>
+                <article>
+                    <h2>Meta</h2>
+                    <p>2026: AI Drives Performance</p>
+                    <h6>March 11, 2026</h6>
+                </article>
+            </div>
+            <div class="nmItem">
+                <figure>
+                    <img
+                        src="images/imgi_49_Meta-Announces-Up-to-6-Billion-Agreement-With-Corning-to-Support-US-ManufacturingNewsroom-post-title-here_Thumbnail.jpg" />
+                </figure>
+                <article>
+                    <h2>Meta</h2>
+                    <p>Control Your Threads Feed With New Dear Algo Feature</p>
+                    <h6>March 11, 2026</h6>
+                </article>
+            </div>
+            <div class="nmItem">
+                <figure>
+                    <img src="images/imgi_50_Advance-Wearable-Technology-for-Good_Thumbnail01.gif" />
+                </figure>
+                <article>
+                    <h2>Meta</h2>
+                    <p>Meta and NVIDIA Announce Long-Term Infrastructure Partnership
+                    </p>
+                    <h6>March 11, 2026</h6>
+                </article>
+            </div>
+        </div>
+        <div class="show">
+            <h2><i class="fa-solid fa-chevron-down"></i>See More News</h2>
+        </div>
+        <div class="Follow">
+            <ul class="fleft">
+                <h4>Follow Meta Newsroom</h4>
+                <li></li>
+                <li><a href="#"><i class="fa-brands fa-threads"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+            </ul>
+            <ul class="fright">
+                <h4>Press Resources</h4>
+                <li></li>
+                <li><a href="#">press@meta.com</a></li>
+                <li><a href="#"> Media Gallery</a></li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footermid">
+            <div class="footerItem">
+                <figure>
+                    <img src="images/download (1).svg" alt="">
+                </figure>
+                <ul class="footerIcon">
+                    <li><a href="#"><i class="fa-brands fa-threads"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footeritem2">
+                <ul class="fconten">
+                    <h2>Meta Store</h2>
+                    <li><a href="#">Ray-Ban Meta glasses</a></li>
+                    <li><a href="#">Oakley Meta glasses</a></li>
+                    <li><a href="#">Meta Quest</a></li>
+                    <li><a href="#">Apps and games</a></li>
+                    <li><a href="#">Meta Quest gift cards</a></li>
+                    <li><a href="#">Refurbished Meta Quest 3</a></li>
+                    <li><a href="#">Refurbished Meta Quest 3S</a></li>
+                    <li><a href="#">Refurbished Ray-Ban Meta glasses</a></li>
+                    <li><a href="#">More from Ray-Ban</a></li>
+                    <li><a href="#">Meta Quest: Play now. Pay later.</a></li>
+                    <li><a href="#">Meta Warranty Plus</a></li>
+                    <li><a href="#">Meta for Work</a></li>
+                    <li><a href="">Meta for Education</a></li>
+                    <li><a href="">Meta Quest referrals</a></li>
+                    <li><a href="">ducation discount</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+                <ul class="fconten">
+                    <h2> Store support and legal</h2>
+                    <li><a href="#">Meta Help Center</a></li>
+                    <li><a href="#">Order status</a></li>
+                    <li><a href="#">Meta Quest</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Find a product demo</a></li>
+                    <li><a href="#">Authorized retailers</a></li>
+                    <li><a href="#">Legal</a></li>
+                    <li><a href="#">Terms of sale</a></li>
+                    <li><a href="#">Meta Quest safety center</a></li>
+
+                </ul>
+            </div>
+            <div class="footeritem2">
+                <ul class="fconten">
+                    <h2>Community</h2>
+                    <li><a href="#">Creators</a></li>
+                    <li><a href="#"> Developers</a></li>
+                    <li><a href="#"> Businesses </a></li>
+                    <li><a href="#"> VR for Good </a></li>
+                    <li><a href="#">Download SDKs</a></li>
+                    <li><a href="#">Made for Meta partner program</a></li>
+                </ul>
+                <ul class="fconten">
+                    <h2> Our actions</h2>
+                    <li><a href="#">Data and privacy</a></li>
+                    <li><a href="#">Responsible business practices</a></li>
+                    <li><a href="#">Elections</a></li>
+                </ul>
+            </div>
+            <div class="footeritem2">
+                <ul class="fconten">
+                    <h2> About us</h2>
+                    <li><a href="#">About Meta </a></li>
+                    <li><a href="#">Company info </a></li>
+                    <li><a href="#"> Careers</a></li>
+                    <li><a href="#">Media gallery </a></li>
+                    <li><a href="#"> Brand resources </a></li>
+                    <li><a href="#">For investors </a></li>
+                    <li><a href="#">Newsroom</a></li>
+                </ul>
+                <ul class="fconten">
+                    <h2> Site terms and policies</h2>
+                    <li><a href="#">Community Standards</a></li>
+                    <li><a href="#">Order status</a></li>
+                    <li><a href="#"> Privacy Policy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+                <ul class="fconten">
+                    <h2> App support</h2>
+                    <li><a href="#"> Facebook Help Centre </a></li>
+                    <li><a href="#"> Messenger Help Centre</a></li>
+                    <li><a href="#"> Instagram Help Centre</a></li>
+                    <li><a href="#">WhatsApp Help Centre</a></li>
+                    <li><a href="#"> Workplace Help Centre</a></li>
+                    <li><a href="#"> Meta Verified</a></li>
+                    <li><a href="#">India (English)</a></li>
+                    <li><a href="#">META QUEST</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="lowerfooter">
+            <ul class="lfleft">
+                <li><a href="">© 2026 Meta </a> </li>
+                <li><a href="">Community Standards </a> </li>
+                <li><a href="">Data Policy </a> </li>
+                <li><a href="">Terms </a> </li>
+                <li><a href="">Cookie policy</a> </li>
+            </ul>
+            <button>India &nbsp;<i class="fa-solid fa-angle-down"></i></button>
+        </div>
+    </footer>
+
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navContainer = document.getElementById('navContainer');
+
+        if (menuToggle && navContainer) {
+            menuToggle.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const isOpen = navContainer.classList.toggle('active');
+                menuToggle.classList.toggle('active', isOpen);
+                menuToggle.setAttribute('aria-expanded', isOpen);
+            });
+        }
+
+        // Mobile accordion for mega menus
+        const menuItems = document.querySelectorAll('.menuItem');
+        menuItems.forEach(item => {
+            const link = item.querySelector(':scope > a');
+            if (link && item.querySelector('.magamanu')) {
+                link.addEventListener('click', (e) => {
+                    if (window.innerWidth <= 992) {
+                        e.preventDefault();
+                        const isAlreadyOpen = item.classList.contains('open');
+                        menuItems.forEach(other => {
+                            if (other !== item) other.classList.remove('open');
+                        });
+                        item.classList.toggle('open', !isAlreadyOpen);
+                    }
+                });
+            }
+        });
+
+        // Close mobile nav when clicking outside
+        document.addEventListener('click', (e) => {
+            if (window.innerWidth <= 992 && navContainer && navContainer.classList.contains('active')) {
+                if (!navContainer.contains(e.target) && !menuToggle.contains(e.target)) {
+                    navContainer.classList.remove('active');
+                    menuToggle.classList.remove('active');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                }
+            }
+        });
+
+        // Close mobile nav on resize above breakpoint
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 992 && navContainer && navContainer.classList.contains('active')) {
+                navContainer.classList.remove('active');
+                if (menuToggle) {
+                    menuToggle.classList.remove('active');
+                    menuToggle.setAttribute('aria-expanded', 'false');
+                }
+                menuItems.forEach(item => item.classList.remove('open'));
+            }
+        });
+    </script>
+</body>
+
+</html>
